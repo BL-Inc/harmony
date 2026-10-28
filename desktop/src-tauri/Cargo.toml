@@ -1,0 +1,13 @@
+[package]
+name = "harmony-desktop"
+version = "0.1.0"
+description = "Harmony desktop shell"
+edition = "2021"
+
+[dependencies]
+# Enable/configure the Tauri dependency and build setup for your chosen Tauri version.
+# tauri = { version = "2", features = [] }
+
+[features]
+default = []
+tauri-runtime = []
